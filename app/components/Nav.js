@@ -1,6 +1,13 @@
+"use client";
 import styles from "./Nav.module.css";
+import { useState } from "react";
 
 export default function Nav() {
+  const [isMenuOpen, setMenuOpen] = useState(false);
+
+  const handleToggleMenu = () => {
+    setMenuOpen(!isMenuOpen);
+  };
   return (
     <header className={styles.header}>
       <p>LOGO</p>
@@ -25,6 +32,9 @@ export default function Nav() {
           BYLAWS
         </a>
       </nav>
+      <button className={styles.burger} onClick={handleToggleMenu}>
+        MENU
+      </button>
     </header>
   );
 }

@@ -1,13 +1,13 @@
-.nav {
-  width: 60%;
-  display: flex;
-  justify-content: space-evenly;
-}
-
 .header {
   display: flex;
   justify-content: space-between;
   align-items: center;
+}
+
+.nav {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
 }
 
 .a {
@@ -17,12 +17,30 @@
   padding-right: 1.5rem;
 }
 
-/* .a:last-child {
+.a:last-child {
   border-right: none;
   padding-right: 0;
-} */
+}
 
 .a:hover {
   text-decoration: underline;
   font-weight: 700;
+}
+
+.burger {
+  display: none;
+}
+
+@media (max-width: 900px) {
+  .nav {
+    flex-direction: column;
+  }
+
+  .a {
+    border-right: none;
+  }
+
+  .burger {
+    display: block;
+  }
 }
