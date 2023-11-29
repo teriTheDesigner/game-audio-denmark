@@ -1,0 +1,22 @@
+.number {
+  font-size: 8rem;
+  font-weight: 600;
+}
+
+.numbers {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+.numbersContainer {
+  width: 60%;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+.name {
+  font-size: 2rem;
+}
