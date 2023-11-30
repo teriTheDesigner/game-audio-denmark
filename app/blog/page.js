@@ -2,6 +2,7 @@
 
 import { useState, useEffect } from "react";
 import supabase from "../config/supabaseClient";
+import BlogPostCard from "../components/BlogPostCard.js/BlogPostCard";
 
 export default function Blog() {
   const [blogs, setBlogs] = useState();
@@ -27,9 +28,9 @@ export default function Blog() {
     <main>
       {blogs && (
         <div>
-          {blogs.map((blog) => {
-            return <p key={blog.id}>{blog.title}</p>;
-          })}
+          {blogs.map((blog) => (
+            <BlogPostCard blog={blog} />
+          ))}
         </div>
       )}
     </main>
