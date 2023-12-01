@@ -1,0 +1,93 @@
+.footer {
+  padding-top: 10rem;
+  padding-bottom: 10rem;
+  background-color: black;
+}
+
+.label {
+  display: flex;
+  flex-direction: column;
+  gap: 0.8rem;
+}
+
+.input {
+  width: 20rem;
+  padding: 0.6rem;
+  border-radius: 10px;
+  height: 1.4rem;
+  border: none;
+}
+
+.button {
+  padding: 0.6rem;
+  height: 2.5rem;
+  width: 7rem;
+  background-color: white;
+  border-radius: 10px;
+  border: none;
+  margin-top: auto;
+  cursor: pointer;
+}
+.signup {
+  display: flex;
+  justify-content: space-between;
+}
+
+.signupText {
+  font-size: 1.5rem;
+  margin: 0;
+}
+
+.div1 {
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.div2 {
+  display: flex;
+  flex-direction: column;
+  gap: 3rem;
+  grid-column: 2/6;
+}
+
+.nav {
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+}
+
+.a {
+  text-decoration: none;
+  color: white;
+  font-size: 0.8rem;
+}
+
+.a:hover {
+  text-decoration: underline;
+}
+
+.oneSocial {
+  display: flex;
+  gap: 1.5rem;
+  align-items: center;
+}
+
+.socials {
+  font-size: 0.8rem;
+  display: flex;
+  flex-direction: column;
+  gap: 1.2rem;
+}
+
+.menuAndSocials {
+  display: flex;
+  gap: 8rem;
+  grid-column: 9/12;
+}
+
+@media (max-width: 1300px) {
+  .menuAndSocials {
+    gap: 5rem;
+    grid-column: 8/12;
+  }
+}
