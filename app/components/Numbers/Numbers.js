@@ -1,14 +1,18 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useMemo } from "react";
 import styles from "./Numbers.module.css";
 
 export default function Numbers() {
-  const numbersToDisplay = [
-    { number: 43, name: "Members" },
-    { number: 25, name: "Events" },
-    { number: 4, name: "Years" },
-  ];
+  const numbersToDisplay = useMemo(
+    () => [
+      { number: 43, name: "Members" },
+      { number: 25, name: "Events" },
+      { number: 4, name: "Years" },
+    ],
+    []
+  );
+
   const [count, setCount] = useState(0);
 
   useEffect(() => {

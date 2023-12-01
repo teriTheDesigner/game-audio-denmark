@@ -29,7 +29,7 @@ export default function Blog() {
       {blogs && (
         <div>
           {blogs.map((blog) => (
-            <BlogPostCard blog={blog} />
+            <BlogPostCard key={blog.title} blog={blog} />
           ))}
         </div>
       )}
