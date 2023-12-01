@@ -29,8 +29,8 @@ export default function Numbers() {
 
   return (
     <div className={styles.numbersContainer}>
-      {numbersToDisplay.map((item, index) => (
-        <div key={index} className={styles.numbers}>
+      {numbersToDisplay.map((item) => (
+        <div key={item.name} className={styles.numbers}>
           <div className={styles.number}>
             {count <= item.number ? count : item.number}
           </div>
