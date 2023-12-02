@@ -2,7 +2,7 @@ import styles from "@/app/components/Footer/Footer.module.css";
 import Link from "next/link";
 export default function Footer() {
   return (
-    <footer className={styles.footer}>
+    <footer className={`${styles.footer} grid-section`}>
       <div className={styles.div1}>
         <div className={styles.div2}>
           <p className={styles.signupText}>
@@ -138,6 +138,11 @@ export default function Footer() {
             </div>
           </div>
         </div>
+      </div>
+      <div className={styles.contact}>
+        <p>contact@gameaudiodenmark.dk</p>
+        <p>+45 78 98 04</p>
+        <p>CVR nr. 5568282828</p>
       </div>
     </footer>
   );
