@@ -9,9 +9,6 @@ export default function Home() {
       {/* <h1 className={styles.h1}>GAME AUDIO DENMARK</h1> */}
       {/* <Slider />
       <Numbers /> */}
-      <h1 className={styles.h1}>GAME AUDIO DENMARK</h1>
-      <Slider />
-      <Numbers />
       <MembershipCard />
     </main>
   );
