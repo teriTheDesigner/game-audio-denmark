@@ -2,3 +2,8 @@
   background-color: rgb(19, 19, 19);
   color: white;
 }
+
+.grid-section {
+  display: grid;
+  grid-template-columns: 5% 1fr 5%;
+}

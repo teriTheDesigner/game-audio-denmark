@@ -2,7 +2,7 @@
 
 import { useState, useEffect } from "react";
 import supabase from "../config/supabaseClient";
-import BlogPostCard from "../components/BlogPostCard.js/BlogPostCard";
+import BlogPostCard from "../components/BlogPostCard/BlogPostCard";
 
 export default function Blog() {
   const [blogs, setBlogs] = useState();
