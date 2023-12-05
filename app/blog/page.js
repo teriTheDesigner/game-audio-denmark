@@ -1,5 +1,5 @@
 "use client";
-
+import styles from "@/app/blog/Blog.module.css";
 import { useState, useEffect } from "react";
 import supabase from "../config/supabaseClient";
 import BlogPostCard from "../components/BlogPostCard/BlogPostCard";
@@ -25,9 +25,9 @@ export default function Blog() {
   }, []);
 
   return (
-    <main>
+    <main className="grid-section">
       {blogs && (
-        <div>
+        <div className={styles.blogsContainer}>
           {blogs.map((blog) => (
             <BlogPostCard key={blog.title} blog={blog} />
           ))}
