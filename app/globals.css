@@ -1,5 +1,5 @@
 :root {
-  background-color: rgb(19, 19, 19);
+  background-color: rgb(16, 16, 16);
   color: white;
 }
 
@@ -16,5 +16,23 @@
 @media (max-width: 1000px) {
   .grid-component {
     padding: 5rem 0rem 5rem 0rem;
+  }
+}
+
+@media (min-width: 1500px) {
+  .grid-component {
+    grid-template-columns: 10% 1fr 10%;
+  }
+  .grid-section {
+    grid-template-columns: 10% 1fr 10%;
+  }
+}
+
+@media (min-width: 1800px) {
+  .grid-component {
+    grid-template-columns: 15% 1fr 15%;
+  }
+  .grid-section {
+    grid-template-columns: 15% 1fr 15%;
   }
 }

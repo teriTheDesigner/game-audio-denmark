@@ -1,6 +1,6 @@
 "use client";
 
-import { useState, useEffect } from "react";
+import { useState, useEffect, useRef } from "react";
 import styles from "./Numbers.module.css";
 
 export default function Numbers() {
@@ -11,13 +11,16 @@ export default function Numbers() {
   ];
 
   const [count, setCount] = useState(0);
+  const [isCounting, setIsCounting] = useState(false);
+
+  const numbersContainerRef = useRef(null);
 
   useEffect(() => {
     const duration = 1000;
     const steps = 50;
     const interval = duration / steps;
 
-    if (count < numbersToDisplay[0].number) {
+    if (isCounting && count < numbersToDisplay[0].number) {
       const timer = setInterval(() => {
         setCount((prevCount) => prevCount + 1);
       }, interval);
@@ -26,18 +29,44 @@ export default function Numbers() {
         clearInterval(timer);
       };
     }
-  }, [count, numbersToDisplay]);
+  }, [count, isCounting, numbersToDisplay]);
+
+  useEffect(() => {
+    const observer = new IntersectionObserver(
+      (entries) => {
+        entries.forEach((entry) => {
+          if (entry.isIntersecting) {
+            setIsCounting(true);
+          }
+        });
+      },
+      { threshold: 0.65 }
+    );
+
+    if (numbersContainerRef.current) {
+      observer.observe(numbersContainerRef.current);
+    }
+
+    return () => {
+      observer.disconnect();
+    };
+  }, []);
 
   return (
-    <div className={styles.numbersContainer}>
-      {numbersToDisplay.map((item) => (
-        <div key={item.name} className={styles.numbers}>
-          <div className={styles.number}>
-            {count <= item.number ? count : item.number}
+    <section
+      ref={numbersContainerRef}
+      className={`${styles.section} grid-component`}
+    >
+      <div className={styles.numbersContainer}>
+        {numbersToDisplay.map((item) => (
+          <div key={item.name} className={styles.numbers}>
+            <div className={styles.number}>
+              {count <= item.number ? count : item.number}
+            </div>
+            <div className={styles.name}>{item.name}</div>
           </div>
-          <div className={styles.name}>{item.name}</div>
-        </div>
-      ))}
-    </div>
+        ))}
+      </div>
+    </section>
   );
 }

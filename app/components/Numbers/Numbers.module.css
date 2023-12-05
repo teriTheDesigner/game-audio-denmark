@@ -3,19 +3,58 @@
   font-weight: 600;
 }
 
+.section {
+  background-color: black;
+}
+
 .numbers {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: center;
   gap: 3rem;
-  min-width: 400px;
+  width: 16rem;
+  margin-right: 2rem;
 }
 
 .numbersContainer {
   display: flex;
+  grid-column: 2/3;
 }
 
 .name {
   font-size: 2rem;
+}
+
+@media (max-width: 1000px) {
+  .numbers {
+    width: 10rem;
+    margin-right: 1rem;
+  }
+  .number {
+    font-size: 5rem;
+  }
+  .name {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .numbers {
+    width: 6rem;
+    margin-right: 1rem;
+    gap: 1.5rem;
+  }
+  .number {
+    font-size: 3rem;
+  }
+  .name {
+    font-size: 1rem;
+  }
+}
+
+@media (max-width: 400px) {
+  .numbersContainer {
+    overflow-x: hidden;
+  }
 }
