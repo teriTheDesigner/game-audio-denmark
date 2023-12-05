@@ -1,3 +1,8 @@
+import Faq from "../components/Faq/Faq";
 export default function About() {
-  return <main>Hello from About page</main>;
+  return (
+    <main>
+      <Faq />
+    </main>
+  );
 }

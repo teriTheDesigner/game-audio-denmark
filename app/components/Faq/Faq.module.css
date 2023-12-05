@@ -1,0 +1,101 @@
+.layout {
+  grid-column: 2/3;
+
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.accordion {
+  display: flex;
+  flex-direction: column;
+  grid-column: 7/13;
+  gap: 2rem;
+}
+
+.accordionHeader {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  cursor: pointer;
+  padding: 1rem;
+}
+
+.accordionHeader p {
+  margin: 0;
+}
+.customIcon {
+  width: 35px;
+  height: 35px;
+  fill: white;
+  transition: transform 0.4s ease-out;
+}
+
+.summaryOpen .customIcon {
+  transform: rotate(110deg);
+}
+
+.summary {
+  list-style-type: none;
+  background-color: black;
+}
+
+.text {
+  grid-column: 1/5;
+}
+
+.text h2 {
+  font-size: 3.4rem;
+  margin: 0;
+  padding-bottom: 2rem;
+}
+
+.text p {
+  line-height: 1.6;
+}
+
+.p {
+  line-height: 1.6;
+  padding-left: 3rem;
+  background-color: black;
+  margin-block-start: 0em;
+  margin-block-end: 0em;
+  padding-top: 1rem;
+  padding-bottom: 2rem;
+  padding-right: 1rem;
+}
+
+@media (max-width: 1000px) {
+  .text {
+    grid-column: 1/7;
+    margin-bottom: 2rem;
+  }
+  .accordion {
+    grid-column: 1/10;
+    gap: 2rem;
+  }
+}
+
+@media (max-width: 600px) {
+  .text {
+    grid-column: 1/13;
+
+    margin-bottom: 1rem;
+  }
+  .text h2 {
+    font-size: 2rem;
+
+    padding-bottom: 1rem;
+  }
+  .accordion {
+    grid-column: 1/13;
+    gap: 1rem;
+  }
+  .p {
+    line-height: 1.6;
+    padding-left: 1rem;
+    font-size: 0.8rem;
+  }
+  .accordionHeader p {
+    font-size: 0.8rem;
+  }
+}
