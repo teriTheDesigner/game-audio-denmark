@@ -10,7 +10,7 @@
 .grid-component {
   display: grid;
   grid-template-columns: 5% 1fr 5%;
-  padding: 10rem 0rem 10rem 0rem;
+  padding: 7rem 0rem 7rem 0rem;
 }
 
 @media (max-width: 1000px) {
