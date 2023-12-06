@@ -13,7 +13,7 @@ export default function Home() {
       <MembershipCard />
       <SponsorshipCards />
       <Numbers />
-      {/* <SponsorAttractCards /> */}
+      <SponsorAttractCards />
     </main>
   );
 }
