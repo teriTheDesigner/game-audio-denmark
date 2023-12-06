@@ -4,6 +4,7 @@ export default function Mission() {
   return (
     <section className={`${styles.section} grid-component`}>
       <div className={styles.layout}>
+        <h2>OUR MISSION</h2>
         <p className={styles.text}>
           " Game Audio Denmark is dedicated to establishing a national network
           for the game audio industry with interconnected local networks. Our

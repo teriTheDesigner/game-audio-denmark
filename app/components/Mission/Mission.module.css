@@ -3,9 +3,11 @@
   display: grid;
   grid-template-columns: repeat(12, 1fr);
 }
-
-.section {
-  background-color: black;
+.layout h2 {
+  grid-column: 2/12;
+  margin: auto;
+  padding-bottom: 5rem;
+  font-size: 3rem;
 }
 
 .text {
@@ -20,6 +22,14 @@
     font-size: 0.9rem;
   }
 }
+
+@media (max-width: 800px) {
+  .layout h2 {
+    padding-bottom: 3rem;
+    font-size: 2rem;
+  }
+}
+
 @media (max-width: 600px) {
   .text {
     grid-column: 1/13;

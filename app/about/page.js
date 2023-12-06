@@ -2,11 +2,19 @@ import BoardMembers from "../components/BoardMembers/BoardMembers";
 import Faq from "../components/Faq/Faq";
 import Mission from "../components/Mission/Mission";
 import Video from "../components/Video/Video";
+import AboutUs from "../components/AboutUs/AboutUs";
+import styles from "@/app/about/styles.module.css";
 export default function About() {
   return (
     <main>
-      <Mission />
+      <section className={`${styles.section} grid-component`}>
+        <div className={styles.divSection}>
+          <h1 className={styles.h1}>ABOUT GAME AUDIO DENMARK</h1>
+        </div>
+      </section>
       <Video />
+      <Mission />
+      <AboutUs />
       <BoardMembers />
       <Faq />
     </main>

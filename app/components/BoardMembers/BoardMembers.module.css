@@ -14,9 +14,6 @@
   font-size: 3rem;
 }
 
-.section {
-  background-color: black;
-}
 .boardMembers1 {
   grid-column: 2/12;
   display: flex;
