@@ -35,11 +35,28 @@
   margin: 0;
   width: 7rem;
   height: 7rem;
-  background-color: gray;
-  border-radius: 50%;
-  border: 2px solid gray;
+  /* background-color: gray; */
+  /* border-radius: 50%;
+  border: 0px solid gray; */
 }
 
+.ghostship {
+  background-image: url("../../assets/ghostship.png");
+  background-size: cover;
+}
+.sonicminds {
+  width: 13rem;
+  height: 5.5rem;
+  background-image: url("../../assets/sonicminds.png");
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.cujosound {
+  width: 9rem;
+  height: 9rem;
+  background-image: url("../../assets/cujosound.png");
+  background-size: cover;
+}
 .cta {
   display: flex;
   justify-content: space-between;
@@ -53,19 +70,15 @@
 
 .cta > p {
   width: 60%;
-  font-size: 0.8rem;
+  font-size: 0.9rem;
 }
 
 @media (max-width: 1200px) {
   .sponsors {
     gap: 2rem;
   }
-  .sponsors > * {
-    width: 5rem;
-    height: 5rem;
-  }
 }
-@media (max-width: 800px) {
+@media (max-width: 900px) {
   .cta {
     flex-direction: column;
     justify-content: space-between;
@@ -80,6 +93,9 @@
 @media (max-width: 600px) {
   .component {
     gap: 2rem;
+  }
+  .sponsors {
+    flex-direction: column;
   }
   .cta {
     width: 100%;

@@ -8,9 +8,9 @@ export default function OurSponsors() {
         <div className={styles.component}>
           <h2>OUR SPONSORS</h2>
           <div className={styles.sponsors}>
-            <div></div>
-            <div></div>
-            <div></div>
+            <div className={styles.ghostship}></div>
+            <div className={styles.sonicminds}></div>
+            <div className={styles.cujosound}></div>
           </div>
           <div className={styles.cta}>
             <p>
