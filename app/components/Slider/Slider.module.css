@@ -2,8 +2,21 @@
   width: 80%;
   margin-left: auto;
   margin-right: auto;
-  border: 1px solid white;
   overflow-x: auto;
+  padding: 1.5rem;
+}
+
+.section {
+  padding-top: 7rem;
+  padding-bottom: 7rem;
+  background-color: black;
+}
+
+.h2 {
+  width: 100%;
+  font-size: 3rem;
+  text-align: center;
+  margin-bottom: 4rem;
 }
 
 .container {
@@ -13,14 +26,115 @@
   white-space: nowrap;
 }
 
-.a {
+.link1 {
+  text-align: center;
+  background-image: url(../../assets/event3.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-width: 400px;
+  min-height: 400px;
+  aspect-ratio: 1/1;
+}
+
+.link2 {
+  text-align: center;
+  background-image: url(../../assets/event1.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-width: 400px;
+  min-height: 400px;
+  aspect-ratio: 1/1;
+}
+
+.link3 {
+  text-align: center;
+  background-image: url(../../assets/event2.png);
+  display: block;
+  background-repeat: no-repeat;
+  background-size: cover;
+
+  min-width: 400px;
+  min-height: 400px;
+  aspect-ratio: 1/1;
+}
+
+.link4 {
   text-align: center;
   background-image: url(../../assets/gad.png);
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
-  text-decoration: none;
-  color: white;
   min-width: 400px;
-  min-height: 350px;
+  min-height: 400px;
+  aspect-ratio: 1/1;
+}
+
+@media (min-width: 1600px) {
+  .wrapper {
+    width: 60%;
+  }
+}
+
+@media (max-width: 1200px) {
+  .wrapper {
+    width: 90%;
+  }
+}
+
+@media (max-width: 1100px) {
+  .link1 {
+    min-width: 300px;
+    min-height: 300px;
+  }
+
+  .link2 {
+    min-width: 300px;
+    min-height: 300px;
+  }
+
+  .link3 {
+    min-width: 300px;
+    min-height: 300px;
+  }
+
+  .link4 {
+    min-width: 300px;
+    min-height: 300px;
+  }
+}
+
+@media (max-width: 700px) {
+  .section {
+    margin-top: 5rem;
+    margin-bottom: 5rem;
+  }
+
+  .h2 {
+    font-size: 2rem;
+    margin-bottom: 3rem;
+  }
+
+  .link1 {
+    min-width: 200px;
+    min-height: 200px;
+  }
+
+  .link2 {
+    min-width: 200px;
+    min-height: 200px;
+  }
+
+  .link3 {
+    min-width: 200px;
+    min-height: 200px;
+  }
+
+  .link4 {
+    min-width: 200px;
+    min-height: 200px;
+  }
 }
