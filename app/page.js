@@ -6,6 +6,7 @@ import styles from "./page.module.css";
 import Slider from "@/app/components/Slider/Slider";
 import OurSponsors from "./components/OurSponsors/OurSponsors";
 import SponsorsinitFor from "./components/SponsorsinitFor/SponsorsinitFor";
+import SponsorsMoneyFor from "./components/SponsorsMoneyFor/SponsorsMoneyFor";
 
 export default function Home() {
   return (
@@ -17,6 +18,7 @@ export default function Home() {
       <MembershipCard />
       <OurSponsors />
       <SponsorsinitFor />
+      <SponsorsMoneyFor />
       <SponsorAttractCards />
       <SponsorshipCards />
     </main>

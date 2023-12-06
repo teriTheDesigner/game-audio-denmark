@@ -1,0 +1,45 @@
+.componentContainer {
+  grid-column: 2/3;
+}
+
+.component {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 10rem;
+}
+
+.advantages {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1rem;
+}
+.advantages li p {
+  margin: 0.5rem;
+}
+
+.stats {
+  background-image: url("../../assets/stats.jpg");
+  background-size: cover;
+  width: 20rem;
+  height: 20rem;
+}
+
+@media (max-width: 950px) {
+  .component {
+    gap: 3rem;
+  }
+  .stats {
+    width: 15rem;
+    height: 15rem;
+  }
+}
+
+@media (max-width: 750px) {
+  .component {
+    flex-direction: column;
+    gap: 3rem;
+  }
+}
