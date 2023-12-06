@@ -1,0 +1,77 @@
+.link {
+  text-decoration: none;
+  color: white;
+  margin-bottom: 2rem;
+}
+
+.link:hover {
+  text-decoration: underline;
+  font-weight: 700;
+}
+
+.header {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.headerDiv {
+  grid-column: 2/12;
+  display: flex;
+  flex-direction: column;
+}
+
+.section {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+.sectionText {
+  grid-column: 2/10;
+  line-height: 1.7;
+}
+
+.highlighted {
+  margin-left: 4rem;
+  margin-top: 4rem;
+  margin-bottom: 4rem;
+  border-left: 1px solid white;
+  padding-left: 3rem;
+}
+.imageContainer {
+  background-size: cover;
+  width: 100%;
+  height: 100;
+  aspect-ratio: 19/6;
+}
+
+@media (max-width: 1000px) {
+  .link {
+    margin-bottom: 1rem;
+  }
+  .highlighted {
+    margin-left: 2rem;
+    padding-left: 3rem;
+  }
+  .sectionText {
+    grid-column: 2/12;
+  }
+}
+
+@media (max-width: 600px) {
+  .highlighted {
+    margin-left: 1rem;
+    padding-left: 2rem;
+  }
+  .sectionText {
+    grid-column: 1/13;
+    font-size: 0.8rem;
+  }
+  .headerDiv {
+    grid-column: 1/13;
+    font-size: 0.8rem;
+  }
+  .headerDiv h1 {
+    font-size: 1.5rem;
+    margin: 0;
+  }
+}
