@@ -1,0 +1,65 @@
+.sponsorship {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  grid-column: 2/3;
+  gap: 3rem;
+  margin: auto;
+  max-width: 90%;
+}
+
+.sectionTitle {
+  grid-column: 2/3;
+  margin: auto;
+  padding-bottom: 3rem;
+}
+
+.card {
+  /* background-color: #ef6975; */
+  width: 14rem;
+  border-radius: 0.8rem;
+  padding: 1.5rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  /* align-items: center; */
+  gap: 1rem;
+}
+
+.title {
+  font-size: 1rem;
+  border-bottom: solid 2px white;
+  padding-bottom: 1rem;
+}
+.card > p {
+  margin: 0;
+  line-height: 1.7;
+}
+
+.init4u {
+  display: flex;
+  flex-direction: column;
+  gap: 0.6rem;
+  padding: 0;
+}
+.init4u > * {
+  font-size: 0.8rem;
+  padding: 0;
+  margin: 0;
+  line-height: 1.7;
+}
+
+@media (max-width: 850px) {
+  .sponsorship {
+    gap: 1rem;
+  }
+
+  .card {
+    width: 14rem;
+    padding: 1rem;
+  }
+  .init4u > p {
+    font-size: 0.8rem;
+  }
+}

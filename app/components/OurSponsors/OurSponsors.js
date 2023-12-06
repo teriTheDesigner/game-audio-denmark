@@ -14,8 +14,9 @@ export default function OurSponsors() {
           </div>
           <div className={styles.cta}>
             <p>
-              We value our sponsors please be our sponsor too, here you can learn more about how to
-              become a sponsor.
+              We deeply appreciate the support of our sponsors, who play a crucial role in helping
+              us achieve our goals. Discover the various opportunities available for sponsorship and
+              learn more about how you can contribute to our mission.
             </p>
             <Link href="">CLICK HERE</Link>
           </div>
