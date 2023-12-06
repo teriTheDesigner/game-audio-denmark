@@ -1,0 +1,27 @@
+.layout {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.section {
+  background-color: black;
+}
+
+.text {
+  grid-column: 4/10;
+  line-height: 1.8;
+  font-style: italic;
+}
+
+@media (max-width: 1000px) {
+  .text {
+    grid-column: 2/12;
+    font-size: 0.9rem;
+  }
+}
+@media (max-width: 600px) {
+  .text {
+    grid-column: 1/13;
+  }
+}

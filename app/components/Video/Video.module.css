@@ -1,0 +1,27 @@
+.layout {
+  grid-column: 2/3;
+  display: grid;
+  grid-template-columns: repeat(12, 1fr);
+}
+
+.video {
+  border: 0;
+  grid-column: 2/12;
+  width: 100%;
+  height: 500px;
+}
+
+@media (max-width: 1000px) {
+  .video {
+    grid-column: 2/12;
+
+    height: 300px;
+  }
+}
+
+@media (max-width: 600px) {
+  .video {
+    grid-column: 1/13;
+    height: 200px;
+  }
+}
