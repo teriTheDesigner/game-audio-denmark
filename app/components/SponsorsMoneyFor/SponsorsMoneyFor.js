@@ -1,7 +1,7 @@
 import styles from "@/app/components/SponsorsMoneyFor/SponsorsMoneyFor.module.css";
 export default function SponsorsMoneyFor() {
   return (
-    <section className="grid-component">
+    <section className={`${styles.section} grid-component`}>
       <div className={styles.componentContainer}>
         <div className={styles.component}>
           <ul className={styles.advantages}>

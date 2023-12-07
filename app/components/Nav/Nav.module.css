@@ -23,6 +23,7 @@
 }
 
 .a:hover {
+  /* background-color: #ef6975; */
   text-decoration: underline;
   font-weight: 700;
 }

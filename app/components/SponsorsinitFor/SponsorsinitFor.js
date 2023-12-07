@@ -10,8 +10,8 @@ export default function SponsorsinitFor() {
           <div className={styles.init4u}>
             <div>
               <p>
-                Get your name and logo front and center on our website and events, and create
-                awareness for your business.
+                Get your name and logo front and center on our website and
+                events, and create awareness for your business.
               </p>
             </div>
           </div>
@@ -22,8 +22,9 @@ export default function SponsorsinitFor() {
           <div className={styles.init4u}>
             <div>
               <p>
-                Hiring? We can help you spot candidates among members and connect them with you,
-                helping you find perfect candidates for job openings.
+                Hiring? We can help you spot candidates among members and
+                connect them with you, helping you find perfect candidates for
+                job openings.
               </p>
             </div>
           </div>
@@ -34,8 +35,9 @@ export default function SponsorsinitFor() {
           <div className={styles.init4u}>
             <div>
               <p>
-                With the board on speed dial, you can quickly gauge who knows what in the audio
-                industry, or we can guide you to helpful resources.
+                With the board on speed dial, you can quickly gauge who knows
+                what in the audio industry, or we can guide you to helpful
+                resources.
               </p>
             </div>
           </div>
@@ -46,8 +48,8 @@ export default function SponsorsinitFor() {
           <div className={styles.init4u}>
             <div>
               <p>
-                Depending on your sponsor- ship tier, you are granted a limited amount of member-
-                ships for your employees.
+                Depending on your sponsor- ship tier, you are granted a limited
+                amount of member- ships for your employees.
               </p>
             </div>
           </div>
@@ -58,8 +60,8 @@ export default function SponsorsinitFor() {
           <div className={styles.init4u}>
             <div>
               <p>
-                Depending on your sponsoring tier, we'll promote your products and/or services.
-                Write a pitch and we'll shout it!
+                Depending on your sponsoring tier, we'll promote your products
+                and/or services. Write a pitch and we'll shout it!
               </p>
             </div>
           </div>
