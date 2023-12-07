@@ -1,6 +1,18 @@
+"use client";
 import styles from "@/app/components/Footer/Footer.module.css";
 import Link from "next/link";
+import { useState } from "react";
+import Modal from "../Modal/Modal";
 export default function Footer() {
+  const [isModalOpen, setIsModalOpen] = useState(false);
+
+  const toggleModal = () => {
+    setIsModalOpen((prevIsModalOpen) => !prevIsModalOpen);
+  };
+
+  const handleSignUpClick = () => {
+    toggleModal();
+  };
   return (
     <footer className={`${styles.footer} grid-section`}>
       <div className={styles.div1}>
@@ -18,7 +30,9 @@ export default function Footer() {
                 placeholder="your@email.com"
               ></input>
             </label>
-            <button className={styles.button}>SIGN UP</button>
+            <button className={styles.button} onClick={handleSignUpClick}>
+              SIGN UP
+            </button>
           </div>
         </div>
         <div className={styles.menuAndSocials}>
@@ -144,6 +158,7 @@ export default function Footer() {
         <p>+45 78 98 04</p>
         <p>CVR nr. 5568282828</p>
       </div>
+      {isModalOpen && <Modal onClose={toggleModal} />}
     </footer>
   );
 }
