@@ -7,6 +7,7 @@ import Slider from "@/app/components/Slider/Slider";
 import OurSponsors from "./components/OurSponsors/OurSponsors";
 import SponsorsinitFor from "./components/SponsorsinitFor/SponsorsinitFor";
 import SponsorsMoneyFor from "./components/SponsorsMoneyFor/SponsorsMoneyFor";
+import Link from "next/link";
 
 export default function Home() {
   return (
