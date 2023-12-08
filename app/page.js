@@ -8,6 +8,7 @@ import OurSponsors from "./components/OurSponsors/OurSponsors";
 import SponsorsinitFor from "./components/SponsorsinitFor/SponsorsinitFor";
 import SponsorsMoneyFor from "./components/SponsorsMoneyFor/SponsorsMoneyFor";
 import Link from "next/link";
+import UpcomingEvent from "./components/UpcomingEvent/UpcomingEvent";
 
 export default function Home() {
   return (
@@ -15,6 +16,7 @@ export default function Home() {
       {/* <h1 className={styles.h1}>GAME AUDIO DENMARK</h1> */}
 
       <Numbers />
+      <UpcomingEvent />
       <MembershipCard />
       <OurSponsors />
       <Slider />

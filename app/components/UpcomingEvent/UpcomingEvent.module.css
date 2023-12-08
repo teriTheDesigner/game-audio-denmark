@@ -1,0 +1,48 @@
+.pageSection {
+  background-image: url(../../assets/upcomingEvent.jpg);
+  background-size: cover;
+  margin: auto;
+  min-width: 100%;
+  height: auto;
+  aspect-ratio: 16/9;
+}
+.componentContainer {
+  grid-column: 2/3;
+}
+
+.component {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 1rem;
+  width: 100%;
+}
+
+.component > * {
+  margin: 0;
+}
+.component > h1 {
+  padding-bottom: 2rem;
+}
+.textContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 3rem;
+}
+
+.textContent > * {
+  margin: 0;
+  padding-left: 3rem;
+}
+
+.title {
+  font-size: 2rem;
+  color: rgb(255, 166, 1);
+}
+
+.description {
+  width: 45%;
+}
