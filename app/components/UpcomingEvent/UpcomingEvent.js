@@ -8,16 +8,18 @@ export default function UpcomingEvent() {
         <div className={styles.component}>
           <h1>UPCOMING EVENT</h1>
           <div className={styles.textContent}>
-            <h2 className={styles.title}>THE FOREST QUARTET</h2>
-            <p className={styles.description}>
-              We will kick off the season with the adventure puzzle game “The Forest Quartet”
-              presented by the multi-award-winning Mads & Friends Games. Here the talented creator
-              Mads Vadsholt will be our forest guide through his very personal family project. Mads
-              will tell us about music and sound design in the game, how they intertwine, and the
-              aesthetic choices that were made to blend the sound with the visuals. We will also
-              hear about the backstory of the game.
-            </p>
-            <Link href={"/"}>LEARN MORE</Link>
+            <div className={styles.card}>
+              <h2 className={styles.title}>THE FOREST QUARTET</h2>
+              <p className={styles.description}>
+                We will kick off the season with the adventure puzzle game “The Forest Quartet”
+                presented by the multi-award-winning Mads & Friends Games. Here the talented creator
+                Mads Vadsholt will be our forest guide through his very personal family project.
+                Mads will tell us about music and sound design in the game, how they intertwine, and
+                the aesthetic choices that were made to blend the sound with the visuals. We will
+                also hear about the backstory of the game.
+              </p>
+              <Link href={"/"}>LEARN MORE</Link>
+            </div>
           </div>
         </div>
       </div>

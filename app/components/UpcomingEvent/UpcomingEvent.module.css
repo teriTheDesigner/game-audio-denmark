@@ -1,4 +1,5 @@
 .pageSection {
+  padding: 1rem 0 1rem 0;
   background-image: url(../../assets/upcomingEvent.jpg);
   background-size: cover;
   margin: auto;
@@ -8,41 +9,122 @@
 }
 .componentContainer {
   grid-column: 2/3;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
 }
 
 .component {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
-  gap: 1rem;
+  align-items: flex-start;
+  gap: 2rem;
   width: 100%;
 }
 
 .component > * {
   margin: 0;
 }
-.component > h1 {
-  padding-bottom: 2rem;
+.component h1 {
+  padding: 0 0 6rem 2rem;
+  font-size: 2.6rem;
 }
-.textContent {
+
+.card > * {
+  margin: 0;
+}
+.card {
   display: flex;
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 3rem;
+  gap: 1.4rem;
+  margin: 0;
+  width: 40%;
+  padding: 2rem;
+  /* From https://css.glass */
+  background: rgba(255, 255, 255, 0.11);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  backdrop-filter: blur(6.7px);
+  -webkit-backdrop-filter: blur(6.7px);
 }
 
 .textContent > * {
   margin: 0;
-  padding-left: 3rem;
+}
+.textContent h2 {
+  margin: 0;
 }
 
 .title {
-  font-size: 2rem;
-  color: rgb(255, 166, 1);
+  font-size: 1.5rem;
+  color: rgb(252, 178, 88);
 }
 
 .description {
-  width: 45%;
+  width: 100%;
+  line-height: 1.5;
+}
+@media (max-width: 1200px) {
+  .component h1 {
+    padding: 0;
+    padding-left: 2rem;
+  }
+}
+@media (max-width: 950px) {
+  .component {
+    align-items: center;
+  }
+
+  .component h1 {
+    padding: 0;
+    font-size: 2rem;
+  }
+  .textContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    align-items: flex-start;
+    width: 70%;
+    gap: 0.5rem;
+    padding: 2rem;
+  }
+  .title {
+    font-size: 1.5rem;
+    text-align: center;
+  }
+  .description {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 400px) {
+  .component {
+    gap: 1rem;
+  }
+  .component h1 {
+    font-size: 1.5rem;
+  }
+  .textContent {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+  .card {
+    align-items: center;
+    padding: 1rem;
+    width: 100%;
+    gap: 1rem;
+  }
+  .title {
+    font-size: 1rem;
+    text-align: center;
+  }
+  .description {
+    font-size: 0.8rem;
+  }
 }
