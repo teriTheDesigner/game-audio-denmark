@@ -2,7 +2,7 @@ import styles from "@/app/components/SponsorsinitFor/SponsorsinitFor.module.css"
 export default function SponsorsinitFor() {
   return (
     <section className="grid-component">
-      <h2 className={styles.sectionTitle}>WHAT'S IN IT FOR YOU</h2>
+      <h2 className="h2class">WHAT'S IN IT FOR YOU</h2>
       <div className={styles.sponsorship}>
         <div className={styles.card}>
           <p className={styles.title}>BRAND VISIBILITY</p>

@@ -4,7 +4,9 @@ export default function Bylaws() {
     <div className={styles.page}>
       <section className={`${styles.section} grid-section`}>
         <div className={styles.divSection}>
-          <h1 className={styles.h1}>RULES AND REGULATIONS</h1>
+          <h1 className={styles.h1}>
+            RULES AND <span>REGULATIONS</span>
+          </h1>
         </div>
       </section>
       <section className={`${styles.section} grid-section`}>

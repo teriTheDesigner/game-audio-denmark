@@ -20,6 +20,10 @@
   margin: 0.5rem;
 }
 
+.section {
+  background-color: black;
+}
+
 .stats {
   background-image: url("../../assets/chart1.png");
   background-size: cover;
