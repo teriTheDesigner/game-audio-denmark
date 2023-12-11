@@ -176,7 +176,7 @@ export default function SponsorshipCards() {
           </div>
         </div>
       </div>
-      <Link href="/" className={styles.link}>
+      <Link href="#footer" className={styles.link}>
         CONTACT US
       </Link>
     </section>

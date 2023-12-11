@@ -14,7 +14,7 @@ export default function Footer() {
     toggleModal();
   };
   return (
-    <footer className={`${styles.footer} grid-section`}>
+    <footer id="footer" className={`${styles.footer} grid-section`}>
       <div className={styles.div1}>
         <div className={styles.div2}>
           <p className={styles.signupText}>

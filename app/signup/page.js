@@ -344,7 +344,7 @@ export default function SignUp() {
               className={`${styles.link} ${
                 isValid ? styles.validLink : styles.invalidLink
               }`}
-              href="/"
+              href="/subscribed"
             >
               SIGN UP
             </Link>

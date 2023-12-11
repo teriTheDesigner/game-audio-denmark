@@ -148,7 +148,7 @@ export default function MembershipCard() {
           <p>250 DKK</p>
         </div>
       </div>
-      <Link href="/" className={styles.link}>
+      <Link href="/signup" className={styles.link}>
         SIGN UP
       </Link>
     </section>

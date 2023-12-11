@@ -7,26 +7,32 @@ export default function Slider() {
       <div className={styles.wrapper}>
         <div className={styles.container}>
           <Link
+            target="_blank"
             className={styles.link1}
             href="https://www.meetup.com/game-audio-playthrough/"
           ></Link>
           <Link
+            target="_blank"
             className={styles.link2}
             href="https://www.meetup.com/game-audio-playthrough/"
           ></Link>
           <Link
+            target="_blank"
             className={styles.link3}
             href="https://www.meetup.com/game-audio-playthrough/"
           ></Link>
           <Link
+            target="_blank"
             className={styles.link4}
             href="https://www.meetup.com/game-audio-playthrough/"
           ></Link>
           <Link
+            target="_blank"
             className={styles.link2}
             href="https://www.meetup.com/game-audio-playthrough/"
           ></Link>
           <Link
+            target="_blank"
             className={styles.link1}
             href="https://www.meetup.com/game-audio-playthrough/"
           ></Link>
