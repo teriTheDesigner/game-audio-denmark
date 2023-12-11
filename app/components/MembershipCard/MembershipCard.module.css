@@ -5,6 +5,10 @@
   gap: 3rem;
 }
 
+.section {
+  background-color: black;
+}
+
 .card {
   /* background-color: #ef6975; */
   width: 14rem;

@@ -13,9 +13,9 @@ export default function Home() {
       <Mission />
       <Numbers />
       <UpcomingEvent />
+      <Slider />
       <MembershipCard />
       <OurSponsors />
-      <Slider />
     </main>
   );
 }

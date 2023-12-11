@@ -2,7 +2,8 @@ import styles from "@/app/components/MembershipCard/MembershipCard.module.css";
 import Link from "next/link";
 export default function MembershipCard() {
   return (
-    <section className="grid-component">
+    <section className={`${styles.section} grid-component`}>
+      <h2 className="h2class">MEMBERSHIP TYPES</h2>
       <div className={styles.membership}>
         <div className={styles.card}>
           <p className={styles.title}>STUDENT</p>
