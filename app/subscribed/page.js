@@ -16,7 +16,9 @@ export default function Subscribed() {
                 <p>We are happy you are joining our community! </p>
                 <p>Read more about us here </p>
               </div>
-              <Link href={"/"}>LEARN MORE</Link>
+              <Link className={styles.link} href={"/"}>
+                LEARN MORE
+              </Link>
             </div>
           </div>
         </div>
