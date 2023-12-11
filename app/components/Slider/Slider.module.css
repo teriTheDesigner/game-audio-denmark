@@ -6,16 +6,16 @@
   padding: 1.5rem;
 }
 
+.h2 {
+  width: 100%;
+  font-size: 2.5rem;
+  text-align: center;
+  margin-bottom: 4rem;
+}
+
 .section {
   padding-top: 7rem;
   padding-bottom: 7rem;
-}
-
-.h2 {
-  width: 100%;
-  font-size: 3rem;
-  text-align: center;
-  margin-bottom: 4rem;
 }
 
 .container {
@@ -108,13 +108,13 @@
 
 @media (max-width: 700px) {
   .section {
-    margin-top: 5rem;
-    margin-bottom: 5rem;
+    padding-top: 5rem;
+    padding-bottom: 5rem;
   }
 
   .h2 {
-    font-size: 2rem;
-    margin-bottom: 3rem;
+    font-size: 1.6rem;
+    margin-bottom: 2rem;
   }
 
   .link1 {
@@ -136,4 +136,13 @@
     min-width: 200px;
     min-height: 200px;
   }
+}
+
+@media (max-width: 450px) {
+  .h2 {
+    font-size: 1.2rem;
+  }
+}
+
+@media (max-width: 1000px) {
 }
