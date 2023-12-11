@@ -15,19 +15,17 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
-
-  /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.39);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px);
+  color: black;
+  background-color: var(--off-white-75);
 }
 
 .title {
   font-size: 1.5rem;
+  color: var(--card-background-gray);
 }
 .card > p {
   margin: 0;
+  font-weight: 600;
 }
 
 .init4u {
@@ -38,7 +36,34 @@
 }
 .init4u > li {
   font-size: 0.8rem;
+  list-style: none;
   padding: 0;
+  display: flex;
+  align-items: center;
+  gap: 0.5rem;
+}
+
+.link {
+  font-weight: 500;
+  text-decoration: none;
+  grid-column: 2/3;
+  margin-top: 3rem;
+  width: 17%;
+  margin-left: auto;
+  margin-right: auto;
+  color: black;
+  border: 1px solid var(--coral-color-100);
+  background-color: var(--coral-color-100);
+  text-align: center;
+  padding: 0.7rem;
+  border-radius: 8px;
+}
+.link:hover {
+  color: var(--coral-color-100);
+  background-color: black;
+  border: 1px solid var(--coral-color-100);
+
+  transition: 0.5s ease-out;
 }
 
 @media (max-width: 1100px) {
@@ -62,5 +87,10 @@
   }
   .init4u > li {
     font-size: 0.8rem;
+  }
+
+  .link {
+    margin-top: 2rem;
+    width: 25%;
   }
 }

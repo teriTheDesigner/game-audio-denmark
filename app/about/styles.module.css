@@ -8,6 +8,9 @@
   grid-column: 1/8;
   font-size: 4rem;
 }
+.h1 span {
+  color: var(--coral-color-100);
+}
 
 @media (max-width: 1000px) {
   .h1 {

@@ -9,7 +9,9 @@ export default function About() {
     <main>
       <section className={`${styles.section} grid-component`}>
         <div className={styles.divSection}>
-          <h1 className={styles.h1}>ABOUT GAME AUDIO DENMARK</h1>
+          <h1 className={styles.h1}>
+            <span>ABOUT</span> GAME AUDIO DENMARK
+          </h1>
         </div>
       </section>
       <Video />

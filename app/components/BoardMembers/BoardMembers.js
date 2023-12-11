@@ -4,8 +4,8 @@ import Link from "next/link";
 export default function BoardMembers() {
   return (
     <section className={`${styles.section} grid-component`}>
+      <h2 className="h2class">THE BOARD</h2>
       <div className={styles.layout}>
-        <h2>THE BOARD</h2>
         <div className={styles.boardMembers1}>
           <div className={styles.onePerson}>
             <div className={styles.image9}></div>

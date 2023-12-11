@@ -11,6 +11,10 @@
   grid-column: 1/6;
   font-size: 4rem;
 }
+
+.h1 span {
+  color: var(--coral-color-100);
+}
 .contentcenter {
   grid-column: 4/10;
 }
