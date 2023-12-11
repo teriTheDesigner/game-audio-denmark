@@ -18,7 +18,9 @@ export default function UpcomingEvent() {
                 the aesthetic choices that were made to blend the sound with the visuals. We will
                 also hear about the backstory of the game.
               </p>
-              <Link href={"/"}>LEARN MORE</Link>
+              <Link className={styles.link} href={"/"}>
+                LEARN MORE
+              </Link>
             </div>
           </div>
         </div>

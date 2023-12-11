@@ -18,7 +18,9 @@ export default function OurSponsors() {
               us achieve our goals. Discover the various opportunities available for sponsorship and
               learn more about how you can contribute to our mission.
             </p>
-            <Link href="">CLICK HERE</Link>
+            <Link className={styles.link} href="">
+              READ MORE
+            </Link>
           </div>
         </div>
       </div>

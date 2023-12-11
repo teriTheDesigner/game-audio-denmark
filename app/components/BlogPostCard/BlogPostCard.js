@@ -24,8 +24,8 @@ export default function BlogPostCard({ blog }) {
         <div className={styles.cta}>
           <p className={styles.author}>{blog.author}</p>
 
-          <Link href="/blog/[slug]" as={`/blog/id=${blog.id}`}>
-            CLICK HERE
+          <Link className={styles.link} href="/blog/[slug]" as={`/blog/id=${blog.id}`}>
+            READ HERE
           </Link>
         </div>
       </div>
