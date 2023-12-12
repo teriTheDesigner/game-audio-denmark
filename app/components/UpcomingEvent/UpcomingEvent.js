@@ -6,10 +6,10 @@ export default function UpcomingEvent() {
     <section className={`grid-section ${styles.pageSection}`}>
       <div className={styles.componentContainer}>
         <div className={styles.component}>
-          <h1>UPCOMING EVENT</h1>
+          <h2>UPCOMING EVENT</h2>
           <div className={styles.textContent}>
             <div className={styles.card}>
-              <h2 className={styles.title}>THE FOREST QUARTET</h2>
+              <h1 className={styles.title}>THE FOREST QUARTET</h1>
               <p className={styles.description}>
                 We will kick off the season with the adventure puzzle game “The
                 Forest Quartet” presented by the multi-award-winning Mads &

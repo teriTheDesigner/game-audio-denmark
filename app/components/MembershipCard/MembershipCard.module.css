@@ -19,18 +19,41 @@
   justify-content: center;
   align-items: center;
   gap: 2rem;
+  color: rgb(255, 255, 255);
+  background-color: rgb(40, 40, 40);
+}
+
+.cardMiddle {
+  /* background-color: #ef6975; */
+  width: 14rem;
+  border-radius: 0.8rem;
+  padding: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  gap: 2rem;
   color: black;
-  background-color: var(--off-white-75);
+  background-color: rgb(206, 206, 206);
+  opacity: 90%;
+}
+
+.cardMiddle > p {
+  margin: 0;
+  font-weight: 600;
+  font-family: var(--font-roboto-mono);
+  color: black;
 }
 
 .title {
-  font-size: 1.5rem;
+  color: rgb(255, 255, 255);
   color: var(--card-background-gray);
 }
 .card > p {
   margin: 0;
   font-weight: 600;
   font-family: var(--font-roboto-mono);
+  color: rgb(255, 255, 255);
 }
 
 .init4u {

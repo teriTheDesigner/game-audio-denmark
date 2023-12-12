@@ -37,6 +37,7 @@ export default function Footer() {
         </div>
         <div className={styles.menuAndSocials}>
           <nav className={styles.nav}>
+            <p>Menu</p>
             <Link href="/events" className={styles.a}>
               Events
             </Link>
@@ -58,6 +59,7 @@ export default function Footer() {
             </Link>
           </nav>
           <div className={styles.socials}>
+            <p>Socials</p>
             <div className={styles.oneSocial}>
               <svg
                 xmlns="http://www.w3.org/2000/svg"

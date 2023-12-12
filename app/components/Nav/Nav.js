@@ -26,13 +26,16 @@ export default function Nav() {
           </Link>
 
           <Link href="/about" className={styles.a}>
-            ABOUT US
+            ABOUT
           </Link>
           <Link href="/sponsors" className={styles.a}>
             SPONSORS
           </Link>
           <Link href="/bylaws" className={styles.a}>
             BYLAWS
+          </Link>
+          <Link className={styles.link} href="/sponsors">
+            SIGN UP
           </Link>
         </nav>
       </header>
