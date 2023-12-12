@@ -2,11 +2,16 @@
   text-decoration: none;
   color: white;
   margin-bottom: 2rem;
+  font-family: var(--font-roboto-mono);
 }
 
 .link:hover {
   text-decoration: underline;
   font-weight: 700;
+}
+
+.headerDiv h1 {
+  font-size: 2.5rem;
 }
 
 .header {
@@ -54,6 +59,12 @@
   }
   .sectionText {
     grid-column: 2/12;
+  }
+}
+
+@media (max-width: 760px) {
+  .headerDiv h1 {
+    font-size: 2rem;
   }
 }
 

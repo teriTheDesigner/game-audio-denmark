@@ -28,6 +28,8 @@
   border: none;
   margin-top: auto;
   cursor: pointer;
+  font-family: var(--font-roboto-mono);
+  font-weight: 500;
 }
 .signup {
   display: flex;

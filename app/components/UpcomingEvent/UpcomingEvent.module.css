@@ -76,6 +76,8 @@
   text-align: center;
   padding: 0.7rem;
   border-radius: 8px;
+  font-family: var(--font-roboto-mono);
+  font-weight: 500;
 }
 .link:hover {
   color: black;
