@@ -17,9 +17,9 @@
 }
 
 .form {
-  background-color: white;
+  background-color: rgb(30, 30, 30);
   grid-column: 3/11;
-  color: black;
+
   padding: 5rem;
   border-radius: 15px;
   display: flex;

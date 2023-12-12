@@ -20,7 +20,7 @@
   align-items: center;
   gap: 2rem;
   color: rgb(255, 255, 255);
-  background-color: rgb(40, 40, 40);
+  background-color: rgb(30, 30, 30);
 }
 
 .cardMiddle {
@@ -34,7 +34,7 @@
   align-items: center;
   gap: 2rem;
   color: black;
-  background-color: rgb(206, 206, 206);
+  background-color: rgb(196, 196, 196);
   opacity: 90%;
 }
 

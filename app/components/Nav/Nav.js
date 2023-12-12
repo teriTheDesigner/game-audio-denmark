@@ -34,7 +34,7 @@ export default function Nav() {
           <Link href="/bylaws" className={styles.a}>
             BYLAWS
           </Link>
-          <Link className={styles.link} href="/sponsors">
+          <Link className={styles.link} href="/signup">
             SIGN UP
           </Link>
         </nav>
