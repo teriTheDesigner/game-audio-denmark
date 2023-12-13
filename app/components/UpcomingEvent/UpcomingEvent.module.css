@@ -1,6 +1,6 @@
 .pageSection {
   padding: 1rem 0 1rem 0;
-  background-image: url(../../assets/upcomingEvent.jpg);
+  background-image: url(../../assets/upcomingEvent.png);
   background-size: cover;
   margin: auto;
   min-width: 100%;
@@ -20,15 +20,12 @@
   flex-direction: column;
   justify-content: center;
   align-items: flex-start;
-  gap: 2rem;
+  gap: 1.4rem;
   width: 100%;
 }
 
 .component > * {
   margin: 0;
-}
-.component h2 {
-  padding: 0 0 2rem 2rem;
 }
 
 .card > * {
@@ -42,27 +39,34 @@
   gap: 1.4rem;
   margin: 0;
   width: 40%;
-  padding: 2rem;
+
   /* From https://css.glass */
-  background: rgba(255, 255, 255, 0.11);
+  /* background: rgba(255, 255, 255, 0.11);
   border-radius: 16px;
   box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
   backdrop-filter: blur(6.7px);
-  -webkit-backdrop-filter: blur(6.7px);
+  -webkit-backdrop-filter: blur(6.7px); */
 }
 
 .textContent > * {
   margin: 0;
 }
+.textContent {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+  gap: 1.4rem;
+}
 .textContent h2 {
   margin: 0;
+  font-size: 0.9rem;
+  font-family: var(--font-roboto-mono);
 }
-
-.title {
-  font-size: 2.4rem;
-  color: rgb(252, 178, 88);
+.textContent h3 {
+  font-size: 3rem;
+  font-weight: 500;
 }
-
 .description {
   width: 100%;
   line-height: 1.5;
@@ -85,66 +89,26 @@
   transition: 0.5s ease-out;
 }
 
-@media (max-width: 1300px) {
-  .title {
-    font-size: 1.8rem;
-  }
-}
-
-@media (max-width: 1200px) {
-  .component h2 {
-    padding: 0;
-    padding-left: 2rem;
-  }
-}
-@media (max-width: 950px) {
-  .component {
-    align-items: center;
-  }
-  .component h2 {
-    padding: 0;
-    font-size: 1.2rem;
-  }
-  .textContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
-  }
+@media (max-width: 1000px) {
   .card {
-    align-items: flex-start;
     width: 70%;
-    gap: 1rem;
-    padding: 2rem;
-  }
-  .title {
-    font-size: 1.5rem;
-    text-align: center;
-  }
-  .description {
-    font-size: 0.8rem;
   }
 }
-@media (max-width: 450px) {
-  .component {
-    gap: 1rem;
-  }
-  .component h2 {
+@media (max-width: 800px) {
+  .title {
     font-size: 1rem;
   }
-  .textContent {
-    display: flex;
-    justify-content: center;
-    align-items: center;
+  .description {
+    font-size: 0.7rem;
   }
+  .textContent h3 {
+    font-size: 2.4rem;
+  }
+}
+@media (max-width: 600px) {
   .card {
-    align-items: center;
-    padding: 1.3rem;
     width: 100%;
     gap: 1rem;
-  }
-  .title {
-    font-size: 1.3rem;
-    text-align: center;
   }
   .description {
     font-size: 0.8rem;

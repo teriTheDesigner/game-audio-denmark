@@ -15,17 +15,12 @@ export default function BlogPostCard({ blog }) {
       <div className={styles.textContent}>
         <p className={styles.date}>{blog.date}</p>
         <h3 className={styles.title}>{blog.title}</h3>
-        <p
-          className={styles.description}
-          style={{ borderBottom: "2px solid white", paddingBottom: "1.5rem" }}
-        >
-          {blog.description}
-        </p>
+        <p className={styles.description}>{blog.description}</p>
         <div className={styles.cta}>
           <p className={styles.author}>{blog.author}</p>
 
           <Link className={styles.link} href="/blog/[slug]" as={`/blog/id=${blog.id}`}>
-            READ HERE
+            READ MORE →
           </Link>
         </div>
       </div>
