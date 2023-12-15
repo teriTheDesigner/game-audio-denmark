@@ -45,6 +45,12 @@ export default function Slider() {
           ></Link>
         </div>
       </div>
+      <Link
+        className={styles.link}
+        href="https://www.meetup.com/game-audio-playthrough/"
+      >
+        SEE MORE EVENTS →
+      </Link>
     </section>
   );
 }

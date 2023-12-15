@@ -34,6 +34,27 @@
   line-height: 1.5;
 }
 
+.link {
+  text-decoration: none;
+  grid-column: 2/3;
+  width: 10rem;
+  color: white;
+  text-align: center;
+  padding-top: 2rem;
+  padding-bottom: 0.2rem;
+  margin: 0;
+  margin-left: auto;
+  margin-right: 5rem;
+  border-bottom: 1px solid white;
+  font-family: var(--font-roboto-mono);
+  font-size: 0.9rem;
+  font-weight: 500;
+}
+.link:hover {
+  scale: 1.1;
+  transition: 0.2s ease-out;
+}
+
 .link1 {
   text-align: center;
   background-image: url(../../assets/event3.png);
@@ -97,7 +118,7 @@
 
 @media (min-width: 1600px) {
   .wrapper {
-    width: 60%;
+    width: 70%;
   }
 }
 
@@ -126,6 +147,10 @@
   .link4 {
     min-width: 300px;
     min-height: 300px;
+  }
+  .link {
+    margin-right: 2rem;
+    padding-top: 1rem;
   }
 }
 
@@ -166,5 +191,8 @@
   }
   .headline {
     width: 90%;
+  }
+  .link {
+    margin-right: 1rem;
   }
 }

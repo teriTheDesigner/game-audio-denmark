@@ -4,7 +4,7 @@ import Link from "next/link";
 export default function OurSponsors() {
   return (
     <section className="grid-component">
-      <h2 className="h2class">OUR SPONSORS</h2>
+      <h2 className="h2class">Our Sponsors</h2>
       <div className={styles.componentContainer}>
         <div className={styles.component}>
           <div className={styles.sponsors}>
