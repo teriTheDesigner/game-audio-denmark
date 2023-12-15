@@ -3,11 +3,9 @@ export default function Bylaws() {
   return (
     <div className={styles.page}>
       <section className={`${styles.section} grid-section`}>
-        <div className={styles.divSection}>
-          <h1 className={styles.h1}>
-            RULES AND <span>REGULATIONS</span>
-          </h1>
-        </div>
+        <h1 className={styles.h1}>
+          RULES AND <span>REGULATIONS</span>
+        </h1>
       </section>
       <section className={`${styles.section} grid-section`}>
         <div className={styles.divSection}>
@@ -61,7 +59,7 @@ export default function Bylaws() {
       </section>
       <section className={`${styles.section} grid-section`}>
         <div className={styles.divSection}>
-          <div className={styles.contentleft}>
+          <div className={styles.contentright}>
             <h4 className={styles.h4}>Year One Goals</h4>
             <p>During the first year, Game Audio Denmark aims to:</p>
             <ul className={styles.ul}>
@@ -84,7 +82,7 @@ export default function Bylaws() {
       </section>
       <section className={`${styles.section} grid-section`}>
         <div className={styles.divSection}>
-          <div className={styles.contentright}>
+          <div className={styles.contentcenter}>
             <h4 className={styles.h4}>Future Plans</h4>
             <p>Looking beyond year one, Game Audio Denmark plans to explore:</p>
             <ul className={styles.ul}>
@@ -100,7 +98,7 @@ export default function Bylaws() {
       </section>
       <section className={`${styles.section} grid-section`}>
         <div className={styles.divSection}>
-          <div className={styles.contentright}>
+          <div className={styles.contentcenter}>
             <h4 className={styles.h4}>Membership rules</h4>
 
             <ul className={styles.ul}>
@@ -118,7 +116,7 @@ export default function Bylaws() {
       </section>
       <section className={`${styles.section} grid-section`}>
         <div className={styles.divSection}>
-          <div className={styles.contentleft}>
+          <div className={styles.contentcenter}>
             <h4 className={styles.h4}>Rights and Responsibilities</h4>
 
             <ul className={styles.ul}>

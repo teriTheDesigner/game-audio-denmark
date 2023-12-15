@@ -1,6 +1,7 @@
 .section {
   padding-top: 3rem;
 }
+
 .divSection {
   grid-column: 2/3;
   display: grid;
@@ -8,10 +9,12 @@
 }
 
 .h1 {
-  grid-column: 1/6;
-  font-size: 4rem;
+  grid-column: 2/3;
+  font-size: 6rem;
+  width: 70%;
+  line-height: 1;
+  margin-bottom: 0;
 }
-
 .h1 span {
   color: var(--coral-color-100);
 }
@@ -44,8 +47,7 @@
 
 @media (max-width: 1000px) {
   .h1 {
-    grid-column: 2/12;
-    font-size: 2rem;
+    font-size: 4rem;
   }
   .section {
     padding-top: 1rem;
@@ -83,9 +85,6 @@
   .contentcenter {
     grid-column: 1/13;
   }
-  .h1 {
-    grid-column: 1/13;
-  }
 
   .contentright {
     grid-column: 1/13;
@@ -93,5 +92,12 @@
 
   .contentleft {
     grid-column: 1/13;
+  }
+}
+
+@media (max-width: 500px) {
+  .h1 {
+    font-size: 3rem;
+    width: 90%;
   }
 }

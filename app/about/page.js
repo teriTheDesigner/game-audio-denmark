@@ -24,7 +24,7 @@ export default function About() {
       <Video />
       <AboutUs />
       <Numbers />
-      <section className={`${styles.lookingAhead} grid-section`}>
+      <section className={`${styles.lookingAhead} grid-component`}>
         <div>
           <h2>Looking ahead</h2>
 

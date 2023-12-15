@@ -26,7 +26,6 @@
 
 .lookingAhead {
   background-color: black;
-  padding-bottom: 5rem;
 }
 .lookingAhead div {
   grid-column: 2/3;
