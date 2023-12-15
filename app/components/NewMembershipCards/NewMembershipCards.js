@@ -1,20 +1,39 @@
-import styles from "@/app/components/MembershipCard/MembershipCard.module.css";
+import styles from "@/app/components/NewMembershipCards/NewMembershipCards.module.css";
 import Link from "next/link";
-export default function MembershipCard() {
+export default function NewMembershipCards() {
   return (
     <section id="membership" className={`${styles.section} grid-component`}>
-      <h2 className="h2class">MEMBERSHIP TYPES</h2>
+      <h2>Membership </h2>
+      <p className={styles.text1}>
+        By becoming a member, you will directly contribute to building our
+        association of Game Audio Enthusiasts. We will soon release more
+        information about membership benefits! We can promise that this will
+        consist of hands-on workshops, webinars with industry experts, and an
+        upcoming mentorship program.
+      </p>
+      <p className={styles.text2}>
+        The price is valid for the first year and only applies to new customers.
+        After this the membership is at full price.
+      </p>
       <div className={styles.membership}>
         <div className={styles.card}>
-          <p className={styles.title}>SUPPORTER</p>
-          <div>
+          <p className={styles.title}>Supporter</p>
+          <div className={styles.priceDiv}>
+            <p className={styles.dkk}>dkk</p>
+            <p className={styles.priceAmount}>200</p>
+          </div>
+          <p className={styles.description}>
+            Only want to support us financially? Become a supporter for single
+            time fee!
+          </p>
+          <div className={styles.divForinit4u}>
             <ul className={styles.init4u}>
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
                   height="30"
-                  fill="#ef6975"
+                  fill="currentColor"
                   className="bi bi-check"
                   viewBox="0 0 16 16"
                 >
@@ -50,18 +69,27 @@ export default function MembershipCard() {
               </li>
             </ul>
           </div>
-          <p>200 DKK</p>
+          <Link href="/signup" className={styles.link}>
+            SIGN UP
+          </Link>
         </div>
         <div className={styles.cardMiddle}>
-          <p className={styles.title}>STUDENT</p>
-          <div>
+          <p className={styles.title}>Student</p>
+          <div className={styles.priceDiv}>
+            <p className={styles.dkk}>dkk</p>
+            <p className={styles.priceAmount}>250</p>
+          </div>
+          <p className={styles.description}>
+            Discounted membership price for students and recent graduated
+          </p>
+          <div className={styles.divForinit4u}>
             <ul className={styles.init4u}>
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
                   height="30"
-                  fill="#ef6975"
+                  fill="currentColor"
                   className="bi bi-check"
                   viewBox="0 0 16 16"
                 >
@@ -74,7 +102,7 @@ export default function MembershipCard() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
                   height="30"
-                  fill="#ef6975"
+                  fill="currentColor"
                   className="bi bi-check"
                   viewBox="0 0 16 16"
                 >
@@ -87,7 +115,7 @@ export default function MembershipCard() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
                   height="30"
-                  fill="#ef6975"
+                  fill="currentColor"
                   className="bi bi-check"
                   viewBox="0 0 16 16"
                 >
@@ -97,18 +125,27 @@ export default function MembershipCard() {
               </li>
             </ul>
           </div>
-          <p>250 DKK</p>
+          <Link href="/signup" className={styles.linkMiddle}>
+            SIGN UP
+          </Link>
         </div>
         <div className={styles.card}>
-          <p className={styles.title}>GENERAL</p>
-          <div>
+          <p className={styles.title}>General</p>
+          <div className={styles.priceDiv}>
+            <p className={styles.dkk}>dkk</p>
+            <p className={styles.priceAmount}>500</p>
+          </div>
+          <p className={styles.description}>
+            Become a general member and enjoy all of these great benefits!
+          </p>
+          <div className={styles.divForinit4u}>
             <ul className={styles.init4u}>
               <li>
                 <svg
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
                   height="30"
-                  fill="#ef6975"
+                  fill="currentColor"
                   className="bi bi-check"
                   viewBox="0 0 16 16"
                 >
@@ -121,7 +158,7 @@ export default function MembershipCard() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
                   height="30"
-                  fill="#ef6975"
+                  fill="currentColor"
                   className="bi bi-check"
                   viewBox="0 0 16 16"
                 >
@@ -134,7 +171,7 @@ export default function MembershipCard() {
                   xmlns="http://www.w3.org/2000/svg"
                   width="30"
                   height="30"
-                  fill="#ef6975"
+                  fill="currentColor"
                   className="bi bi-check"
                   viewBox="0 0 16 16"
                 >
@@ -144,12 +181,11 @@ export default function MembershipCard() {
               </li>
             </ul>
           </div>
-          <p>500 DKK</p>
+          <Link href="/signup" className={styles.link}>
+            SIGN UP
+          </Link>
         </div>
       </div>
-      <Link href="/signup" className={styles.link}>
-        SIGN UP
-      </Link>
     </section>
   );
 }
