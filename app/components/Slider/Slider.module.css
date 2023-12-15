@@ -4,13 +4,7 @@
   margin-right: auto;
   overflow-x: auto;
   padding: 1.5rem;
-}
-
-.h2 {
-  width: 100%;
-  font-size: 2.5rem;
-  text-align: center;
-  margin-bottom: 4rem;
+  grid-column: 2/3;
 }
 
 .section {
@@ -24,6 +18,20 @@
   gap: 2rem;
   flex-wrap: nowrap;
   white-space: nowrap;
+  position: relative;
+}
+
+.headline {
+  grid-column: 2/3;
+  width: 55%;
+  margin: auto;
+  padding-bottom: 2rem;
+}
+.headline h2 {
+  font-size: 2rem;
+}
+.text {
+  line-height: 1.5;
 }
 
 .link1 {
@@ -32,9 +40,8 @@
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
-
-  min-width: 400px;
-  min-height: 400px;
+  min-width: 300px;
+  min-height: 300px;
   aspect-ratio: 1/1;
 }
 
@@ -45,8 +52,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  min-width: 400px;
-  min-height: 400px;
+  min-width: 300px;
+  min-height: 300px;
   aspect-ratio: 1/1;
 }
 
@@ -57,8 +64,8 @@
   background-repeat: no-repeat;
   background-size: cover;
 
-  min-width: 400px;
-  min-height: 400px;
+  min-width: 300px;
+  min-height: 300px;
   aspect-ratio: 1/1;
 }
 
@@ -68,9 +75,24 @@
   display: block;
   background-repeat: no-repeat;
   background-size: cover;
-  min-width: 400px;
-  min-height: 400px;
+  min-width: 300px;
+  min-height: 300px;
   aspect-ratio: 1/1;
+}
+.link1,
+.link2,
+.link3,
+.link4 {
+  position: relative;
+  overflow: hidden;
+  transition: transform 0.3s ease-in-out;
+}
+
+.link1:hover,
+.link2:hover,
+.link3:hover,
+.link4:hover {
+  transform: scale(1.05);
 }
 
 @media (min-width: 1600px) {
@@ -112,10 +134,9 @@
     padding-top: 5rem;
     padding-bottom: 5rem;
   }
-
-  .h2 {
-    font-size: 1.6rem;
-    margin-bottom: 2rem;
+  .headline {
+    width: 70%;
+    margin: 0;
   }
 
   .link1 {
@@ -139,11 +160,11 @@
   }
 }
 
-@media (max-width: 450px) {
-  .h2 {
-    font-size: 1.2rem;
+@media (max-width: 600px) {
+  .text {
+    font-size: 0.8rem;
   }
-}
-
-@media (max-width: 1000px) {
+  .headline {
+    width: 90%;
+  }
 }
