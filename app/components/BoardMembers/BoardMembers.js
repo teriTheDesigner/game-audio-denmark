@@ -46,9 +46,6 @@ export default function BoardMembers() {
             <p>Kristian Rømer</p>
           </div>
         </div>
-        <Link href="/signup" className={styles.link}>
-          JOIN US
-        </Link>
       </div>
     </section>
   );

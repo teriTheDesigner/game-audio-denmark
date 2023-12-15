@@ -16,6 +16,7 @@
 .section {
   padding-top: 7rem;
   padding-bottom: 7rem;
+  overflow: hidden;
 }
 
 .container {

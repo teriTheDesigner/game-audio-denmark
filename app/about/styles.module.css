@@ -1,27 +1,79 @@
-.divSection {
+.h1 {
   grid-column: 2/3;
-  display: grid;
-  grid-template-columns: repeat(12, 1fr);
+  font-size: 6rem;
+  width: 60%;
+  line-height: 1;
 }
 
-.h1 {
-  grid-column: 1/8;
-  font-size: 4rem;
-}
 .h1 span {
-  color: var(--coral-color-100);
+  color: #ef6975;
+}
+.gadDescription {
+  justify-self: end;
+  display: flex;
+  flex-direction: column;
+  justify-content: flex-start;
+  align-items: flex-end;
+  grid-column: 2/3;
+  width: 60%;
+  gap: 3rem;
+}
+.gadDescription p {
+  margin: 0;
+  font-size: 1.7rem;
+  line-height: 1.3;
+}
+
+.lookingAhead {
+  background-color: black;
+  padding-bottom: 5rem;
+}
+.lookingAhead div {
+  grid-column: 2/3;
+  width: 60%;
+  margin: auto;
+}
+.lookingAhead h2 {
+  font-size: 2rem;
+  grid-column: 2/3;
+}
+.lookingAhead p {
+  grid-column: 2/3;
+  line-height: 1.5;
 }
 
 @media (max-width: 1000px) {
   .h1 {
-    grid-column: 2/10;
-    font-size: 3rem;
+    font-size: 4rem;
+    width: 60%;
+    line-height: 1;
+  }
+  .gadDescription {
+    width: 70%;
+    gap: 2rem;
+  }
+  .gadDescription p {
+    font-size: 1rem;
+    line-height: 1.3;
   }
 }
 
+@media (max-width: 700px) {
+  .lookingAhead div {
+    width: 90%;
+  }
+}
 @media (max-width: 600px) {
+  .lookingAhead p {
+    font-size: 0.8rem;
+  }
+}
+@media (max-width: 500px) {
   .h1 {
-    grid-column: 1/13;
-    font-size: 2rem;
+    font-size: 3rem;
+    width: 90%;
+  }
+  .gadDescription {
+    width: 90%;
   }
 }
