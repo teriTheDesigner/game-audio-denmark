@@ -2,10 +2,11 @@ import styles from "@/app/components/SponsorsinitFor/SponsorsinitFor.module.css"
 export default function SponsorsinitFor() {
   return (
     <section className="grid-component">
-      <h2 className="h2class">WHAT'S IN IT FOR YOU</h2>
+      <h2 className="h2class">What's in it for you?</h2>
       <div className={styles.sponsorship}>
         <div className={styles.card}>
-          <p className={styles.title}>BRAND VISIBILITY</p>
+          <p className={styles.number}>01</p>
+          <p className={styles.title}>Brand Visibility</p>
 
           <div className={styles.init4u}>
             <div>
@@ -17,7 +18,8 @@ export default function SponsorsinitFor() {
           </div>
         </div>
         <div className={styles.card}>
-          <p className={styles.title}>MEMBER OUTREACH</p>
+          <p className={styles.number}>02</p>
+          <p className={styles.title}>Member Outreach</p>
 
           <div className={styles.init4u}>
             <div>
@@ -30,7 +32,8 @@ export default function SponsorsinitFor() {
           </div>
         </div>
         <div className={styles.card}>
-          <p className={styles.title}>GAIN KNOWLEDGE</p>
+          <p className={styles.number}>03</p>
+          <p className={styles.title}>Gain Knowledge</p>
 
           <div className={styles.init4u}>
             <div>
@@ -43,7 +46,8 @@ export default function SponsorsinitFor() {
           </div>
         </div>
         <div className={styles.card}>
-          <p className={styles.title}>MEMBERSHIPS</p>
+          <p className={styles.number}>04</p>
+          <p className={styles.title}>Memberships</p>
 
           <div className={styles.init4u}>
             <div>
@@ -55,7 +59,8 @@ export default function SponsorsinitFor() {
           </div>
         </div>
         <div className={styles.card}>
-          <p className={styles.title}>HIGHLIGHT A SERVICE</p>
+          <p className={styles.number}>05</p>
+          <p className={styles.title}>Service Highlight</p>
 
           <div className={styles.init4u}>
             <div>

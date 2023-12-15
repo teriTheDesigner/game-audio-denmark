@@ -2,7 +2,7 @@ import styles from "@/app/components/SponsorsMoneyFor/SponsorsMoneyFor.module.cs
 export default function SponsorsMoneyFor() {
   return (
     <section className={`${styles.section} grid-component`}>
-      <h2 className="h2class">WHAT IS THE MONEY USED FOR?</h2>
+      <h2 className="h2class">What is the money used for?</h2>
       <div className={styles.componentContainer}>
         <div className={styles.component}>
           <ul className={styles.advantages}>
