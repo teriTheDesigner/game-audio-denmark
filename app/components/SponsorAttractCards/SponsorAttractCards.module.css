@@ -2,18 +2,24 @@
   display: flex;
   justify-content: center;
   grid-column: 2/3;
-  gap: 3rem;
+  gap: 1rem;
+}
+
+.icon {
+  width: 50px;
+  height: 50px;
+  fill: white;
 }
 
 .link {
   grid-column: 2/3;
   text-decoration: none;
   width: 7rem;
-  margin-top: 3rem;
-  justify-self: end;
-  margin-right: 11rem;
-  color: #ef6975;
-  border: 2px solid #ef6975;
+  margin-top: 2rem;
+  justify-self: center;
+
+  color: white;
+  border: 2px solid white;
   text-align: center;
   padding: 0.7rem;
   border-radius: 8px;
@@ -22,36 +28,19 @@
 }
 .link:hover {
   color: black;
-  border: 2px solid #ef6975;
-  background-color: #ef6975;
+  border: 2px solid white;
+  background-color: white;
   transition: 0.5s ease-out;
 }
 
-.card:nth-child(2) {
-  background-color: rgb(44, 44, 44);
-}
-
-.card:nth-child(3) {
-  background-color: rgb(60, 60, 60);
-}
 .card {
   /* background-color: #ef6975; */
   width: 14rem;
-  border-radius: 0.8rem;
+
   padding: 2rem;
   display: flex;
   flex-direction: column;
-  justify-content: flex-start;
-  align-items: center;
-  gap: 2rem;
-  background-color: rgb(25, 25, 25);
-  /* background-color: rgb(46, 46, 46); */
-  /* background-color: #ef6975; */
-  /* From https://css.glass
-  background: rgba(255, 255, 255, 0.39);
-  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
-  backdrop-filter: blur(20px);
-  -webkit-backdrop-filter: blur(20px); */
+  gap: 1rem;
 }
 
 .title {
@@ -73,12 +62,6 @@
   padding: 0;
 }
 
-@media (max-width: 1300px) {
-  .link {
-    margin-right: 2rem;
-  }
-}
-
 @media (max-width: 1100px) {
   .card {
     width: 10rem;
@@ -94,15 +77,16 @@
     align-items: center;
   }
 
-  .link {
-    justify-self: center;
-    margin-right: 0;
-  }
   .card {
     width: 14rem;
-    padding: 2rem;
+    padding: 1rem;
+    gap: 1rem;
   }
   .init4u > li {
     font-size: 0.8rem;
+  }
+  .icon {
+    width: 30px;
+    height: 30px;
   }
 }
