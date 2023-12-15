@@ -1,7 +1,7 @@
-import styles from "@/app/components/CallToJoin/CallToJoin.module.css";
 import Link from "next/link";
+import styles from "@/app/components/JoinUs/JoinUs.module.css";
 
-export default function CallToJoin() {
+export default function JoinUs() {
   return (
     <section className={`grid-section ${styles.pageSection}`}>
       <div className={styles.card}>
