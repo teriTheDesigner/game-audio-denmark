@@ -14,8 +14,7 @@ export default function Nav() {
   return (
     <div>
       <header className={styles.header}>
-        <p>LOGO</p>
-
+        <Link href="/" className={styles.logo}></Link>
         <nav className={styles.nav}>
           <Link href="/events" className={styles.a}>
             EVENTS

@@ -10,6 +10,15 @@
   background-color: var(--background-dark-gray);
 }
 
+.logo {
+  background-image: url("../../assets/logoWhite.png");
+  width: 2.6%;
+  aspect-ratio: 1.1/1.2;
+  background-size: cover;
+  margin: 0.5rem;
+  margin-left: 5%;
+}
+
 .link {
   text-decoration: none;
   width: 7rem;

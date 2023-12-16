@@ -5,7 +5,9 @@
   line-height: 1;
   margin-bottom: 0;
 }
-
+.section {
+  background-color: black;
+}
 .h1 span {
   color: #ef6975;
 }

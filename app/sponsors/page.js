@@ -3,6 +3,7 @@ import SponsorAttractCards from "../components/SponsorAttractCards/SponsorAttrac
 import SponsorsinitFor from "../components/SponsorsinitFor/SponsorsinitFor";
 import SponsorsMoneyFor from "../components/SponsorsMoneyFor/SponsorsMoneyFor";
 import SponsorshipCards from "../components/SponsorshipCards/SponsorshipCards";
+import SponsorshipTypes from "../components/SponsorshipTypes/SponsorshipTypes";
 export default function Sponsors() {
   return (
     <main>
@@ -14,7 +15,7 @@ export default function Sponsors() {
       <SponsorAttractCards />
       <SponsorsinitFor />
       <SponsorsMoneyFor />
-      <SponsorshipCards />
+      <SponsorshipTypes />
     </main>
   );
 }

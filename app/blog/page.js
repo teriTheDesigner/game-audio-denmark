@@ -25,7 +25,7 @@ export default function Blog() {
   }, []);
 
   return (
-    <main className="grid-section">
+    <main className={`${styles.section} grid-section`}>
       <h1 className={styles.h1}>ARTICLES</h1>
       {blogs && (
         <div className={styles.blogsContainer}>

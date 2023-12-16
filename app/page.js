@@ -26,8 +26,7 @@ export default function Home() {
           </Link>
         </div>
       </section>
-      {/* <h1 className={styles.h1}>GAME AUDIO DENMARK</h1> */}
-      <Numbers />
+
       <UpcomingEvent />
       <Slider />
       <NewMembershipCards />

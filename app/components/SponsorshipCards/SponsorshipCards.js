@@ -3,7 +3,7 @@ import Link from "next/link";
 export default function SponsorshipCards() {
   return (
     <section className="grid-component">
-      {/* <h2 className="h2class">SPONSORSHIP TYPES</h2>
+      <h2 className="h2class">SPONSORSHIP TYPES</h2>
       <div className={styles.sponsorshipCards}>
         <div className={styles.card}>
           <div className={styles.head}>
@@ -174,7 +174,7 @@ export default function SponsorshipCards() {
             </ul>
           </div>
         </div>
-      </div> */}
+      </div>
       <Link href="#footer" className={styles.link}>
         CONTACT US
       </Link>
