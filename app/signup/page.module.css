@@ -97,15 +97,17 @@
   text-align: center;
   padding: 0.7rem;
   border-radius: 8px;
-  color: white;
-  border: 2px solid #ef6975;
-  background-color: #ef6975;
+  color: black;
+  font-weight: 500;
+  border: 2px solid white;
+  background-color: white;
 }
 .validLink:hover {
-  color: #ef6975;
-  border: 2px solid #ef6975;
+  color: white;
+  border: 2px solid white;
   transition: 0.5s ease-out;
-  background-color: white;
+  background-color: rgb(30, 30, 30);
+  font-weight: 500;
 }
 
 .invalidLink {
@@ -114,9 +116,10 @@
   text-align: center;
   padding: 0.7rem;
   border-radius: 8px;
+  font-weight: 500;
   color: black;
-  border: 2px solid rgb(211, 211, 211);
-  background-color: rgb(211, 211, 211);
+  border: 2px solid rgb(142, 142, 142);
+  background-color: rgb(142, 142, 142);
   pointer-events: none;
 }
 

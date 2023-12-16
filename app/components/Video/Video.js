@@ -7,7 +7,7 @@ export default function Video() {
         <iframe
           className={styles.video}
           title="Game Audio Denmark Introduction Video"
-          src="https://www.youtube.com/embed/IxZPK4N5MTY?autoplay=1&mute=1"
+          src="https://www.youtube.com/embed/yZaN5TUUhx4?autoplay=1&mute=1"
           allowFullScreen
         ></iframe>
       </div>
