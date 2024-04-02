@@ -4,12 +4,14 @@ This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next
 # Game Audio Denmark ✨
 
 
+
 📘 About the project
 
 The website displays information about an organization Game Audio Denmark. The users can stay updated on Upcoming and Previous Events, learn more about becoming a Sponsor or sign up for a Membership by filling out a form. Since this was a school project, most of the content is mockup and might not be accurate. Please refer to the official website of Game Audio Denmark for latest updates. [Game Audio Denmark Website](https://gameaudiodenmark.dk/)
 
 
-🛠 Prerequisites for setup
+
+## Prerequisites for setup 🛠
 
 ```bash
 
@@ -17,7 +19,8 @@ npm install
 
 ```
 
-🧰 Project initiation
+
+## Project initiation 🧰
 
 Run the development server:
 
@@ -30,7 +33,8 @@ npm run dev
 Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
 
-👨‍💻 Developers & Designers
+
+## Developers & Designers 👨‍💻
 
 @teriTheDesigner  Terezia Hrdlovicova
 @orestismmz       Orestis Mamouzelos
@@ -38,14 +42,17 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 @ViliTrusheva     Velichka Stoyanova Trusheva
 
 
-🚀 Deployment
+
+
+## Deployment 🚀 
 
 https://sundown-boulevard-ten.vercel.app/
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
 
-👏 Notes
+
+## Notes 👏
 
 To learn more about Next.js, take a look at the following resources:
 
