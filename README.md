@@ -36,10 +36,13 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Developers & Designers 👨‍💻
 
-@teriTheDesigner  Terezia Hrdlovicova
-@orestismmz       Orestis Mamouzelos
-@monika-tei       Monika Teiserskyte
-@ViliTrusheva     Velichka Stoyanova Trusheva
+@teriTheDesigner Terezia Hrdlovicova<br>
+@orestismmz Orestis Mamouzelos<br>
+@monika-tei Monika Teiserskyte<br>
+@ViliTrusheva Velichka Stoyanova Trusheva
+
+
+
 
 
 
