@@ -46,7 +46,7 @@ Open [http://localhost:3000](http://localhost:3000) with your browser to see the
 
 ## Deployment 🚀 
 
-https://sundown-boulevard-ten.vercel.app/
+https://game-audio-denmark.vercel.app/
 
 Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
 
